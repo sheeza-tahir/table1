@@ -1,0 +1,69 @@
+ * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins",sans-serif;
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+.CSBLUE {
+
+}
+thead tr{
+    width: 95%;
+    max-height: 89%;
+    border: 1px solid #ddd; 
+    box-shadow: 1.5px 1.5px 1px #888888;
+}
+tbody tr:nth-child(even){
+    background-color: #ecf0f1;
+}
+tbody tr:hover {
+    background-color: #bdc3c7;
+}
+tbody {
+    border: 1px solid #ddd; 
+    box-shadow: 1.5px 1.5px 1px #888888;
+}
+
+.pic svg,img {
+    background-color: #9b59b6;
+    border-radius: 5px;
+    padding: 0.1rem;
+    cursor: pointer;
+}
+table, th, td {
+    padding: 1rem;
+    border-collapse: collapse;
+
+}
+.STATUS{
+    border-radius: 5px;
+    color: white;
+    font-weight: bold;
+    font-size: 15px;
+    width: 90%;
+    padding: 0.4rem;
+
+}
+.STATUS.notcompleted{
+    background-color: #f39c12;
+}
+.STATUS.completed{
+    background-color: #2ecc71;
+}
+.STATUS.processing{
+    background-color: #3498db;
+}
+.clr{
+    color: blue;
+}
+.clr.na{}
+.clr.inv1{}
+.clr.inv2{}
+.clr.inv3{}
+.clr.inv4{}
